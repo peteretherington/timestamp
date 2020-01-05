@@ -1,0 +1,32 @@
+{
+	"name": "fcc-api-projects-boilerplate",
+	"version": "0.0.1",
+	"description": "An FCC Backend Challenge",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server"
+	},
+	"dependencies": {
+		"cors": "^2.8.0",
+		"express": "^4.12.4",
+		"luxon": "^1.21.3"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://githost.com/camper/repo.git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express",
+		"freecodecamp"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"nodemon": "^2.0.2"
+	}
+}
