@@ -35,6 +35,8 @@ const getTimeStamp = dateString => {
 		}
 	}
 
+	if (date.toUTCString() === 'Invalid Date') return { error: date.toUTCString() };
+
 	return {
 		unix: date.getTime(),
 		utc: date.toUTCString()
